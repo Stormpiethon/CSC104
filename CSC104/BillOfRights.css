@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(46, 46, 46);
+    color:rgb(255, 255, 255);
+    width: 100%;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+    width: 100%;
+}
+
+.title2 {
+    font-weight: bold;
+}
