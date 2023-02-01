@@ -1,0 +1,27 @@
+body {
+    background-color:darkslategray;
+    background-image: url("laurel.jpg");
+    background-size: contain;
+    color:rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+    width: 100%;
+}
+
+.title2 {
+    font-weight: bold;
+}
