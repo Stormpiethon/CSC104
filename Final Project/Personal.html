@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alexander Brittain">
+        <meta name="description" content="Personal information about me.">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>About Me</title>
+
+        <style>
+            body {
+                background: url("milky-way.jpg");
+                background-repeat: no-repeat;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <section>
+            <div class="HeaderDiv">
+                <img src="star.png" alt="star link" width="15%">
+                <h1 class="Center">Some information about me!</h1>
+                <img src="star.png" alt="star link" width="15%">
+            </div>
+        </section>
+
+        <table>
+            <caption style="font-size: 26px;">My Daily Schedule</caption>
+            <!-- The thead (Table Head) is a semantic tag that allows the programmer to more thoroughly organize their HTML code for their table -->
+            <thead>
+                <!-- This row is the heading for each column of the table -->
+                <!-- Table headings will be centered and bold by defualt -->
+                <tr>
+                    <!-- Table Heading -->
+                    <th>&nbsp;</th>
+                    <!-- The scope is simply an indicator of the scope of the tag -->
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <!-- The tbody (Table Body) tag is a semantic tag that allows the programmer to organize the information in their table more effectively -->
+            <tbody>
+                <!-- Table Row -->
+                <tr>
+                    <th scope="row">Morning</th>
+                    <!-- Table Data -->
+                    <td>
+                        <time datetime="08:00">7am - </time>
+                        <time datetime="11:00">10am</time>
+                    </td>
+                    <td>Exercise, Meditate, Breakfast, Shower, prepare for classes/studying</td>
+                </tr>
+                <tr>
+                    <th scope="row">Break</th>
+                    <td>
+                        <time datetime="11:00">10am - </time>
+                        <time datetime="12:00">1pm</time>
+                    </td>
+                    <td>Morning classes, watch favorite youtube daily content, eat lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td>
+                        <time datetime="12:00">12pm - </time>
+                        <time datetime="17:00">7pm</time>
+                    </td>
+                    <td>Attend classes, eat dinner, do homework, question existence, take a walk</td>
+                </tr>
+                <th scope="row">Evening</th>
+                <td>
+                    <time datetime="12:00">7pm - </time>
+                    <time datetime="17:00">11pm</time>
+                </td>
+                <td>Play video games, watch a movie, clean up my room, laundry, etc</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td colspan="2">Sleep Time . . . . . . . . . . . . </td>
+                </tr>
+            </tbody>
+            <!-- The tfoot (Table Footer) tag is a semantic organization tool for tables that may have a final message or computation that needs to be displayed -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">That is what I do every day 5 days a week... Just eat, sleep, study, and recharge.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Personal stuff that only I probably care about.</h2>
+        <p>I was born and raised in Washington state. I played sports through my childhood and all the way through my
+            years in school. I originally began studying in sports medicine, since I was so passionate about physical
+            health for myself. I attened one year of university classes only to find out that I wasn't as driven to be
+            successful in that field as I thought. I worked in restaurants for over 10 years and have experience in
+            almost every position that was available to work. I researched other things in my spare time hoping to find
+            something that would spark my interests enough to return to school. I applied at the University of Advancing
+            Technology and was recommended to take the AI courses they offer. So now here I am, and I am excited to
+            continue
+            this adventure!</p>
+
+
+        <footer>
+            <p>&lt;&lt;&lt; <a href="index.html">Home</a> &gt;&gt;&gt;</p>
+            <p>Contact me at <a href="mailto:random@email.com">my email address</p>
+        </footer>
+
+    </body>
+
+</html>
